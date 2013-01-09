@@ -1,0 +1,6 @@
+AddType application/x-httpd-php .html
+AuthUserFile /home/kitte-museum-arima-jp/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Enter YourPassword"
+AuthType Basic
+require  user test philatelic

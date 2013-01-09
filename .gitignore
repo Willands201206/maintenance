@@ -1,0 +1,6 @@
+# ファイル名が「.db」で終わるファイルを無視する(Thumbs.db等）
+*.db
+.buildpath
+.project
+README.md
+.settings

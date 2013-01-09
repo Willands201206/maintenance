@@ -1,0 +1,207 @@
+html,body{  
+	font-size: 16px;
+	text-align: center;
+
+}
+/*テーブル*/
+.table-tc {
+	text-align: center;
+}
+.table1-t1{
+	width:1000px;
+	border:1px solid #663300;
+    border-collapse:collapse;
+    border-spacing:0;
+    background-color:#ffffff;
+    empty-cells:show
+}
+
+.table1-t1 th{
+    border-right:1px solid #663300;
+    border-bottom:1px solid #663300;
+    color:#442A15;
+    background-color:#AA9580;
+    background-image:url(../images/table-back.gif);
+    background-position:left top;
+    padding:0.2em 1em;
+    text-align:center;
+
+}
+.table1-t1 td{
+    border-right:1px solid #663300;
+    border-bottom:1px solid #663300;
+    padding:0.2em 1em;
+}
+
+.table1-t2{
+	width:1150px;
+    border-top:1px solid #663300;
+    border-left:1px solid #663300;
+    border-collapse:collapse;
+    border-spacing:0;
+    background-color:#ffffff;
+    empty-cells:show
+}
+
+.table1-t2 th{
+    border-right:1px solid #663300;
+    border-bottom:1px solid #663300;
+    color:#442A15;
+    background-color:#AA9580;
+    background-image:url(../images/table-back.gif);
+    background-position:left top;
+    padding:0.2em 1em;
+    text-align:center;;
+
+}
+.table1-t2 td{
+    border-right:1px solid #663300;
+    border-bottom:1px solid #663300;
+    padding:0.2em 1em;
+}
+
+
+/*共通*/
+.all {
+	margin:auto;
+	text-align: center;
+	width: 1200px;
+}
+.header {
+	text-align: center;
+	width: 1200px;
+	margin: 20px 0px 20px 0px;
+}
+.kyotsu{
+	text-align: center;
+	width: 1200px;
+}
+.kyotsu_ok{
+	text-align: center;
+	width: 1200px;
+	clear: both;
+}
+.ichiran-header2 {
+	width: 1150px;
+}
+
+/*管理メニュー*/
+.kanri {
+	text-align: center;
+	width: 1150px;
+	padding: 20px;
+}
+/*行事一覧*/
+
+.Kensaku-box{
+	width:1000px;
+	float: left;
+	padding-left:30px;
+	clear: both;
+}
+.Kensaku-btn{
+	width:150px;
+	padding-top: 30px;
+	float: left;
+}
+
+.Yajirushi-left{
+	text-align:left;
+	width:1150px;
+	float: left;
+	padding-top:15px;
+	clear: both;
+}
+.kensu{
+	width:1200px;
+	clear:both;
+}
+.Kensu-mae{
+	text-align:left;
+	width:100px;
+	float: left;
+	padding-left:30px;
+}
+.Kensu-tsugi{
+	text-align:right;
+	width:100px;
+	float: right;
+	padding-right:30px;
+}
+.Kensu-now{
+	text-align:right;
+	width:575px;
+	float: right;
+	padding-top:15px;
+	padding-left: 150px;
+	padding-right:30px;
+	clear: both;	
+}
+.g-ichiran{
+	width:1150px;
+	float: left;
+	padding-left:30px;
+	clear: both;
+}
+.g-ichiran_ok{
+	width:1150px;
+	text-align:right;
+	float: left;
+	margin-left:30px;
+	margin-top: 10px;
+	padding-right:25px;
+	clear: both;
+}
+
+/*行事登録*/
+.gyoji-left1 {
+	text-align: right;
+	width: 550px;
+	float: left;
+	clear: both;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.gyoji-right1 {
+	margin: 15px 0px 15px 0px;
+	text-align: left;
+	width: 650px;
+	float: left;
+}
+.gyoji-left2 {	
+	text-align: right;
+	width: 600px;
+	margin-bottom: 30px;
+	float: left;
+	clear: both;
+}
+.gyoji-right2 {
+	text-align: left;
+	width: 600px;
+	margin-bottom: 30px;
+	float: left;
+}
+
+.button {
+	width: 70px;
+	height: 30px;
+	font-size: 18px;
+}
+
+.button-pre {
+	width: 250px;
+	height: 30px;
+	font-size: 18px;
+}
+/*pタグ*/
+.toroku1 {
+	padding-right: 20px;
+}
+.toroku2 {
+	padding-left: 20px;
+}
+
+.error_message{
+	color:red;
+	font-weight: bold;
+}
